@@ -1,0 +1,23 @@
+[class*="col-"] {
+  text-align: center;
+  line-height: 200px;
+  height: 200px;
+}
+
+.debug [class*="col-"] {
+  background-color: #FEC0CB;
+  border: 1px solid black;
+}
+
+.debug.nest [class*="col-"] {
+  background-color: #F08080;
+  border: 1px solid white;
+}
+
+.nest {
+  margin: 5px;
+}
+
+.nest > * {
+  height: 190px;
+}
